@@ -1,0 +1,144 @@
+# Mots et definitions tirés du dictionnaire Trésor de la langue française informatisé.
+
+MARQUISE	n.	Femme noble titulaire d'un marquisat; épouse d'un marquis.
+OPPORTUNISTE	n.	qui fait preuve d'opportunisme.
+
+
+CÉDER	v.	Laisser l'avantage à quelqu'un, se soumettre à la domination ou à l'emprise de quelqu'un.
+TRANQUILLITÉ	n.	Situation de paix et d'ordre qui existe dans une société, entre États qui ne sont troublés par aucun conflit militaire, politique, social, etc.
+RÉCURER	v.	Curer complètement, nettoyer à fond.
+ADMISSIBLE	n.	Qui est reconnu avoir satisfait à une première série d'épreuves dans un examen ou un concours et est admis à subir les épreuves suivantes.
+ÉMINENT	adj.	Qui est très important, absolument remarquable.
+
+TRANQUILLITÉ	n.	État d'un individu qui n'éprouve aucune inquiétude morale, qui n'est affecté par aucun souci, qui connaît le repos du corps et de l'esprit.
+ÉGRENAGE	n.	Séparer, détacher en grains.
+ZOOLOGIE	n.	Branche des sciences naturelles qui a pour objet l'étude et la classification des animaux.
+
+     # Commentaires décalés...   
+
+JUPITÉRIEN	adj.	Qui appartient ou se rattache à la planète Jupiter.
+nouveau	adj.	Qui est né, apparu depuis peu.
+OPPORTUNITÉ	n.	Caractère opportun ; caractère de ce qui est opportun.
+APPAREIL	n.	Ensemble d'organes.
+FRANCHIR	v.	Se décider à une chose après avoir longuement tergiversé.
+SOMBRER	v.	Être englouti dans l'eau.
+HIVER	n.	Âge avancé, vieillesse, symbole de ce qui va disparaître, mourir.
+autobus	n.	Grand véhicule automobile destiné au transport en commun à l'intérieur d'une agglomération.
+UNIFORME	adj.	Où l'on n'aperçoit aucune variété.
+RÉCURER	v.	Donner un troisième labour à la vigne.
+OPPORTUNITÉ	n.	Manque à gagner résultant d'une possibilité non exploitée, par exemple une occasion d'investir ou de s'implanter sur un marché.
+MAISON	n.	Habitation de l'homme.
+HIBOU	n.	Rapace nocturne existant sous diverses espèces, généralement caractérisé par des aigrettes sur le front, un bec crochu, de gros yeux ronds tournés vers l'avant, réputé pour son cri et pour nicher dans un trou ou un nid abandonné.
+COURIR	v.	Marcher d'un pas  rapide; se dépêcher.
+RIDICULEMENT	adv.	D'une manière déraisonnable, contraire au bon sens.
+FAMILLE	n.	Institution juridique qui groupe des personnes unies par les liens du mariage, par les liens du sang, éventuellement, en vertu d'un pacte, par des liens d'adoption.
+ÉGRENAGE	n.	Effacer le grain, les aspérités granuleuses.
+UNIFORME	n.	Ce qui revêt, couvre, cache l'individu; masque.
+ÉMINENT	adj.	Qui est supérieur aux autres par sa qualité, par son excellence.
+OPPORTUNISME	n.	Ligne de conduite politique dans laquelle la tactique se détermine d'après les circonstances, en transigeant, si nécessaire, avec les principes.
+BATEAU	n.	Ouvrage flottant, de toute dimension, utilisé pour la navigation.
+OPPORTUNISME	n.	Comportement d'une personne qui agit en fonction des circonstances et sait exploiter les occasions; parfois péj., aptitude à saisir toutes les occasions avantageuses.
+CÉDER	v.	S'abandonner à une impulsion, une passion, un sentiment, cesser de résister à une contrainte par faiblesse ou par raison.
+GAIEMENT	adv.	Avec vivacité, rapidité.
+ÉGRENAGE	n.	Action d'égrener.
+TURLUPINER	v.	Faire des pitreries.
+
+#Le mot suivant est un doublon
+OPPORTUNISME	n.	Comportement d'une personne qui agit en fonction des circonstances et sait exploiter les occasions; parfois péj., aptitude à saisir toutes les occasions avantageuses.
+
+CAUSERIE	n.	Conversation familière, généralement longue, aimable bavardage entre plusieurs personnes.
+AIMABLE	n.	Qui mérite d'être aimé en raison de ses qualités conformes à un idéal, à un goût généralement personnel ou original.
+LOCALEMENT	adv.	D'une manière locale, dans les limites d'un lieu précis.
+KODAK	n.	Appareil photographique portatif de la marque déposée Kodak.
+effet	n.	Conséquence de l'application d'une loi, d'un jugement.
+QUALITATIF	adj.	Ce qui ne peut pas s'exprimer en termes mesurables ou quantifiables.
+MOUDRE	v.	Broyer  à l'aide d'un moulin.
+STUPÉFACTION	n.	État d'engourdissement plus ou moins proche de la paralysie et de l'insensibilité.
+UNIFORME	adj.	Style dont les détails, le ton, le mouvement manquent de variété.
+MAISON	n.	Bâtiment destiné à servir d'habitation à l'homme.
+QUERELLE	n.	Engager une dispute avec quelqu'un.
+ADMISSIBLE	n.	Qui peut être reconnu comme vrai ou conforme à la raison.
+INTRONISATION	n.	Fait d'introduire solennellement un nouveau membre dans une assemblée, une association, une confrérie.
+MINIATURE	n.	Genre de peinture de petites dimensions faite de couleurs fines et servant d'illustration ou de petit tableau.
+WAGON	n.	Véhicule destiné au transport des animaux et des marchandises.
+ÉGRENAGE	n.	Action de lancer quelques grains de chènevis ou de blé sur un coup amorcé pour apâter le poisson.
+ROBUSTE	adj.	Qui est fort et résistant de par sa constitution, sa forme.
+DROMADAIRE	n.	Animal, espèce du genre chameau, possédant une seule bosse dorsale graisseuse, utilisé comme monture ou comme bête de somme dans les déserts d'Afrique ou d'Arabie.
+FRANCHIR	v.	Prononcer un mot que la pudeur ou la bienséance condamne.
+ÉMINENT	adj.	Élevé par rapport au niveau environnant.
+XÉNOPHOBE	n.	Qui dénote de l'hostilité, de l'antipathie à l'égard des étrangers.
+TRANQUILLITÉ	n.	État de ce qui est, demeure tranquille, sans agitation ni turbulences.
+HIVER	n.	Température froide.
+ZEUNÉRITE	n.	Arséniate hydraté naturel de cuivre et d'uranium, cristallisant dans le système quadratique, de couleur vert nacré.
+YOYO	n.	Dispositif destiné à ralentir ou annuler la rotation d'un engin spatial.
+UTOPIE	n.	Ouvrage qui conceptualise une société idéale à construire.
+ROBUSTE	adj.	Qui est résistant et solide de par ses qualités.
+OPPORTUNITÉ	n.	Occasion ou circonstance favorable.
+INSATISFACTION	n.	Manque de satisfaction, impossibilité d'être satisfait.
+WAGON	n.	Voiture destinée au transport des voyageurs et à certains services.
+FINALEMENT	adv.	En fin de compte, en dernier ressort.
+UTOPIQUE	adj.	Qui exprime, constitue une utopie.
+QUALITATIF	adj.	Analyse qui détermine la nature des éléments composants d'un corps, sans tenir compte des proportions.
+TRANQUILLITÉ	n.	Absence de souci d'ordre matériel.
+FRANCHIR	v.	Un progrès a été accompli; une étape est atteinte.
+PETIT	n.	Enfant le plus jeune par rapport à un autre membre de la phratrie.
+UTOPIQUE	adj.	Qui n'existe que dans l'imaginaire.
+SOMBRER	v.	Mourir, disparaître.
+NOUVEAU	adj.	Qui est au commencement d'une durée, d'un cycle.
+VOLATILE	n.	Animal qui a des ailes, qui peut voler.
+ROBUSTE	adj.	Solide, ferme, inébranlable.
+ÉMINENT	adj.	Qui est supérieur aux autres par ses qualités professionnelles, intellectuelles, morales, etc.
+MOT	n.	Son ou groupe de sons articulés ou figurés graphiquement, constituant une unité porteuse de signification à laquelle est liée, dans une langue donnée, une représentation d'un être, d'un objet, d'un concept, etc.
+LOUVOYER	v.	Employer des moyens détournés pour parvenir à ses fins ou pour éviter de se prononcer.
+TOTALEMENT	adv.	Dans toutes ses parties, entièrement.
+FRANCHIR	v.	En le sautant, en passant par dessus.
+UNIFORME	adj.	Dont les éléments sont, dans leur ensemble, identiques où perçus comme tels.
+TRANQUILLITÉ	n.	Calme qui règne dans un lieu, à un moment particulier; absence de bruit, d'agitation.
+MAISON	n.	Lieu de rendez-vous où les ébats des amoureux sont livrés, à leur insu, à la curiosité lascive de jeunes et vieux débauchés par d'imperceptibles lucarnes.
+SOMBRER	v.	Disparaître, péricliter.
+PETIT	adj.	Qui est d'une taille inférieure à la moyenne.
+BATEAU	n.	Espèce de nacelle qu'on attache au-dessous d'un aérostat.
+VOLATILE	adj.	Qui est facilement propagé par le vent.
+UNIFORME	adj.	Qui s'écoule sans changements marquants.
+YOYO	n.	Jeu d'adresse se composant d'un disque évidé ou de deux disques  réunis par un axe, et que l'on fait descendre et monter le long d'une cordelette enroulée autour de cet axe.
+ALGORITHMIQUE	adj.	Qui concerne l'algorithme.
+UTOPIE	n.	Ce qui appartient au domaine du rêve, de l'irréalisable.
+TOTALEMENT	adv.	Tout à fait, complètement, absolument.
+EFFET	n.	Mouvement de rotation imprimé à une boule, une balle ou un ballon, de façon à modifier sa trajectoire normale.
+ROBUSTESSE	n.	Caractère robuste, fort et résistant.
+ILLUSIONNER	v.	Susciter des illusions, faire illusion; abuser, tromper en se présentant ou en présentant quelque chose d'une manière non conforme à la réalité et souvent flatteuse.
+UNIFORME	n.	Militaire en tenue.
+JUPITÉRIEN	adj.	Qui évoque le dieu Jupiter ou ses attributs.
+AIMABLE	n.	Qui se distingue en raison de sa volonté ou de son art de faire plaisir.
+STUPÉFACTION	n.	Grand étonnement; étonnement extrême qui prive de toute réaction.
+BATEAU	n.	Duper quelqu'un, lui en faire accroire.
+UTOPIE	n.	Plan imaginaire de gouvernement pour une société future idéale, qui réaliserait le bonheur de chacun.
+FRANCHIR	v.	Aller, souvent avec effort, au-delà de quelque chose qui sépare.
+GORGE	n.	Partie antérieure du cou de l'homme.
+JUPITÉRIEN	adj.	Habitant hypothétique de la planète Jupiter.
+QUALITATIF	adj.	Qui concerne la qualité, la nature des choses, et non la quantité, l'aspect mesurable.
+UNIFORME	adj.	Qui ne présente pas d'inégalités.
+SOMBRER	v.	S'écrouler; s'effondrer.
+FRANCHIR	v.	Passer un obstacle matériel.
+ADMISSIBLE	n.	Qui peut être accepté parce que conforme aux règles du droit.
+SYNCRÉTIQUE	adj.	Qui peut cumuler plusieurs fonctions.
+TRANQUILLITÉ	n.	Dans le plus grand calme, sans être dérangé.
+EFFECTIVEMENT	adv.	D'une manière effective.
+STUPÉFACTION	n.	Être dans un état de profond saisissement, de stupeur.
+FINALEMENT	adv.	À la fin, pour finir, en dernier lieu.
+DÉCOMPOSITION	n.	Division d'un tout en ses parties simples.
+QUERELLE	n.	Dispute entre amoureux, membres d'une famille, entre mari et femme.
+HIVER	n.	Symbole de tristesse, de manque de sentiments, de froideur, de sécheresse.
+KARATÉ	n.	Sport de combat d'origine japonaise, consistant à toucher l'adversaire, sans établir un corps à corps, grâce à des coups violents portés avec le tranchant de la main, le coude, le genou et le pied, dans des attaques circulaires ou directes.
+LAPAROTOMIE	n.	Opération chirurgicale qui consiste à ouvrir la paroi abdominale et le péritoine.
+UTOPIE	n.	Système de conceptions idéalistes des rapports entre l'homme et la société, qui s'oppose à la réalité présente et travaille à sa modification.
+ARBITRAIRE	adj.	Qui dépend uniquement d'une décision individuelle, non d'un ordre préétabli, ou d'une raison valable pour tous.
+VISUALISATION	n.	Présentation visuelle sur un écran des résultats d'un traitement sous forme alphanumérique ou graphique.
+POTÉE	n.	Mélange à base d'argile entrant dans la fabrication des moules de fonderie.
+BRUME	n.	Sorte de nuage, de fumée.
+AVERTI	adj.	Celui qui sait, qui est sur ses gardes, qui a de l'expérience.
+DESTIN	n.	Sort spécial réservé à un être humain ou à une chose, conditionné par un fait inéluctable, notamment par sa nature propre.
+GRILLADE	n.	Mets grillé.
+AIMABLE	adj.	Qui fait preuve d’amabilité, gentil, complaisant.
+
+
