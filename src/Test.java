@@ -9,6 +9,7 @@ import java.util.stream.Stream;
 
 public class Test {
     public static void main(String[] args) throws IOException {
+        /*
         //endIndex : n'inclut pas le char
         Path path = Paths.get(".idea/echantillon.txt");
         Stream<String> strEntreeDic = Files.lines(path);
@@ -17,13 +18,16 @@ public class Test {
         for (EntreeDictionnaire e : d.dictionnaire) {
             l.add(e.getDefinition());
         }
-        System.out.println(l.size());
-        System.out.println(d.nombreDeMots("n."));
-        System.out.println(d.nombreDeMots("v."));
-        System.out.println(d.nombreDeMots("adj."));
-        System.out.println(d.nombreDeMots("adv."));
 
-        d.test("n.");
+        System.out.println(d.nombreDeMots("n."));
+        System.out.println(d.nombreEntreesDictionnaire());
+        System.out.println(d.frequence('f'));
+        System.out.println(d.moyenneLongueurMots());
+        System.out.println(d.obtenirEntreesDictionnaire("ce"));
+        System.out.println(Arrays.toString(d.trouverMotsCorrespondants(".....")));
+        System.out.println(Arrays.toString(d.trouverMotsParLongueur(3)));
+
+
 
         /*
         System.out.println(d.nombreEntreesDictionnaire());
@@ -32,6 +36,7 @@ public class Test {
         System.out.println(d.nombreDeMots("v."));
 
          */
+
 
     }
 

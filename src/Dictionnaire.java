@@ -11,9 +11,10 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- *
- *
- *
+ * Classe qui modelise un dictionnaire et permet d'effectuer des opérations sur
+ * un objet EntreeDictionnaire a l'aide des methodes de classe presentes.
+ * @author Mohamed Bendourou, BENM23109703, groupe : 20
+ * @version 26 juillet 2022
  */
 public class Dictionnaire {
 
@@ -70,12 +71,23 @@ public class Dictionnaire {
         }
         return correpsond;
      };
-     private static final Comparator<String> trierSelonLongueur = Comparator.
-            comparingInt(String::length);//À modifier
+     private static final BiFunction<String,Character,Integer> trouverFrequence =
+            (String def,Character c) -> {
+                int i = 0;
+                int j = 0;
+                while (j < def.length()) {
+                    if (def.charAt(j++) == c) {
+                        i++;
+                    }
+                }
+                return i;
+            };
+     private static final Comparator<String> trierSelonLongueur = (s1,s2) ->
+             Integer.compare(s1.length(),s2.length());
 
 
     //Attribut d'instance
-    public List<EntreeDictionnaire> dictionnaire; //A mettre private
+    private List<EntreeDictionnaire> dictionnaire; //A mettre private
 
     //Constructeur
     /**
@@ -118,6 +130,7 @@ public class Dictionnaire {
         return dictionnaire.stream().filter(e -> entreeSelonCat.test
                         (e,categorieGramm)).map(enNomEtCat).distinct().count();
     }
+
 
     /**
      * Cette méthode retourne une liste contenant toutes les entrées de dictionnaire
@@ -163,37 +176,44 @@ public class Dictionnaire {
     }
 
     /**
-     *
-     * @param patron
-     * @return
+     * Cette méthode retourne un tableau de longueur minimale n contenant les n
+     * mots distincts (sans doublons) qui correspondent (sans tenir compte de
+     * la casse) au patron donné en paramètre, parmi les mots de toutes les
+     * entrées de ce dictionnaire.
+     * @param patron Le patron auquel doivent correspondre les mots retournés.
+     * @return un tableau de String.
      */
     public String[] trouverMotsCorrespondants (String patron) {
-        return (String[])dictionnaire.stream().filter(e -> entreeSelonPatron.test
+        return dictionnaire.stream().filter(e -> entreeSelonPatron.test
                 (e,patron)).map(e -> e.getMot().toLowerCase()).distinct().
-                sorted().toArray();
+                sorted().toArray(String[]::new);
     }
 
     /**
-     *
-     * @param nbrMots
-     * @return
+     * Cette méthode retourne un tableau de longueur minimale contenant les
+     * nbrMots mots distincts (sans tenir compte de la casse) les plus longs ou
+     * les plus courts (selon leur nombre de caractères), parmi les mots de
+     * toutes les entrées de ce dictionnaire.
+     * @param nbrMots Le nombre maximum de mots retournés.
+     * @return un tableau de String.
      */
     public String[] trouverMotsParLongueur (int nbrMots) {
-        Stream<String> strMots = dictionnaire.stream().map(e -> e.getMot().
-                        toLowerCase()).distinct().sorted(trierSelonLongueur);
-         if (nbrMots > 0 && nbrMots <= strMots.count()) {
-            strMots = strMots.limit(nbrMots);
+        List<String> listeMots = dictionnaire.stream().map(e -> e.getMot().
+                        toLowerCase()).distinct().sorted(trierSelonLongueur).
+                collect(Collectors.toList());
+         if (nbrMots > 0 && nbrMots <= listeMots.size()) {
+            listeMots = listeMots.stream().limit(nbrMots).collect
+                    (Collectors.toList());
         } else if (nbrMots <= 0) {
-             strMots = strMots.sorted(Comparator.reverseOrder()).limit(nbrMots);
-         }
-        return (String[])strMots.toArray();
+             listeMots = listeMots.stream().sorted(Comparator.reverseOrder()).
+                     limit(Math.abs(nbrMots)).collect(Collectors.toList());         }
+        return listeMots.toArray(new String[0]);
     }
 
-
-
     /**
-     *
-     * @return
+     * Cette méthode retourne la moyenne de la longueur des mots distincts
+     * (sans tenir compte de la casse) de toutes les entrées de ce dictionnaire.
+     * @return la moyenne de la longueur des mots.
      */
     public double moyenneLongueurMots () {
         double moyenne;
@@ -206,49 +226,23 @@ public class Dictionnaire {
     }
 
     /**
-     *
-     * @param c
-     * @return
+     * Cette méthode retourne la fréquence (en pourcentage) du caractère donné en
+     * paramètre (sans tenir compte de la casse) dans le corpus formé par les
+     * définitions de toutes les entrées de ce dictionnaire. Cette méthode
+     * n’élimine pas les doublons de définition, s’il y en a.
+     * @param c Le caractère dont on veut la fréquence sur le corpus formé par
+     * les définitions de toutes les entrées de ce dictionnaire.
+     * @return la fréquence (en pourcentage) du caractère donné en
+     *  paramètre.
      */
     public double frequence (char c) {
-        CharSequence car = c + "";
-        int i = 0;
-        Stream<String> defStream = dictionnaire.stream().map
-                (e -> e.getDefinition().toLowerCase());
-        return defStream.mapToDouble(s -> trouverFrequence.apply(s,c)).sum() /
-                defStream.mapToDouble(s -> s.length()).sum();
+        List<String> listeDefinitions = dictionnaire.stream().map
+                (e -> e.getDefinition().toLowerCase()).collect(Collectors.
+                toList());
+        double nombreTotalLettre = listeDefinitions.stream().mapToDouble
+                (s -> s.length()).sum();
+        double nombreOccurences = listeDefinitions.stream().mapToDouble
+                (s -> trouverFrequence.apply(s,c)).sum();
+        return nombreOccurences / nombreTotalLettre * 100;
     }
-
-    private static final BiFunction<String,Character,Integer> trouverFrequence =
-            (String def,Character c) -> {
-                int i = 0;
-                int j = 0;
-                while (j < def.length()) {
-                    if (def.charAt(j++) == c) {
-                        i++;
-                    }
-                }
-                return i;
-            };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
